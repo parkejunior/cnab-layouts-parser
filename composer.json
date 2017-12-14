@@ -3,7 +3,8 @@
     "description": "Its a fork from glauberportella/cnab-layouts-parser",
     "type": "project",
     "license": "MIT",
-    "version": "0.1"
+    "version": "0.1",
+    "minimum-stability": "stable"
     "authors": [
         {
             "name": "Gabriel Gelado",
