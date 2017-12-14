@@ -31,10 +31,10 @@ class Layout
 
 	protected $arquivo;
 
-	public function __construct($arquivo)
+	public function __construct($banco = 'itau', $formato = 'cnab240', $tipo = 'pagamentos')
 	{
-		$this->arquivo = $arquivo;
-		$this->config = Yaml::parse(file_get_contents($arquivo));
+		$this->arquivo = __DIR__.'../../vendor/gbgelado/cnab-layouts/config/'.$banco.'/'.$formato.'/.'$tipo'.yml';
+		$this->config = Yaml::parse(file_get_contents($this->arquivo));
 	}
 
 	public function getRemessaLayout()
@@ -51,27 +51,27 @@ class Layout
 		if (!isset($this->config['retorno'])) {
 			throw new LayoutException('Falta seção "retorno" no arquivo de layout "'.$this->arquivo.'".');
 		}
-		
+
 		return $this->config['retorno'];
 	}
 
 	public function getVersao()
 	{
-		return !isset($this->config['retorno']) 
+		return !isset($this->config['retorno'])
 			? null
 			: $this->config['retorno'];
 	}
 
 	public function getServico()
 	{
-		return !isset($this->config['servico']) 
+		return !isset($this->config['servico'])
 			? null
 			: $this->config['servico'];
 	}
 
 	public function getLayout()
 	{
-		return !isset($this->config['layout']) 
+		return !isset($this->config['layout'])
 			? null
 			: $this->config['layout'];
 	}
