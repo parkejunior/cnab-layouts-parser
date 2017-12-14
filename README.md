@@ -6,7 +6,7 @@ Isso é uma fork de: [https://github.com/glauberportella/cnab-layouts-parser](ht
 
 Instale via composer:
 
-`composer require "gbgelado/cnab-layouts-parser @dev"`
+`composer require gbgelado/cnab-layouts-parser`
 
 # Exemplos
 
