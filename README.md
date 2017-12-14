@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/glauberportella/cnab-layouts-parser.svg?branch=master)](https://travis-ci.org/glauberportella/cnab-layouts-parser) [![Code Climate](https://codeclimate.com/github/glauberportella/cnab-layouts-parser/badges/gpa.svg)](https://codeclimate.com/github/glauberportella/cnab-layouts-parser)
+Isso é uma fork de: [https://github.com/glauberportella/cnab-layouts-parser](https://github.com/glauberportella/cnab-layouts-parser)
 
 # CNAB LAYOUTS PARSER
 
@@ -6,7 +6,7 @@
 
 Instale via composer:
 
-`composer install glauberportella/cnab-layouts-parser`
+`composer require "gbgelado/cnab-layouts-parser @dev"`
 
 # Exemplos
 
@@ -15,7 +15,7 @@ Instale via composer:
 Gerando um arquivo Remessa CNAB240:
 
 ```php
-<?php 
+<?php
 require_once __DIR__.'/vendor/autoload.php';
 
 use CnabParser\Parser\Layout;
@@ -164,7 +164,7 @@ $retorno = $retornoFile->generate();
 
 The MIT License (MIT)
 
-Copyright (c) 2016 Glauber Portella <glauberportella@gmail.com>
+Copyright (c) 2015 Glauber Portella <gelado@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
