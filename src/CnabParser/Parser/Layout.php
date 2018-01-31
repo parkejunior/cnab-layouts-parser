@@ -34,7 +34,7 @@ class Layout
 	public function __construct($banco = 'itau', $formato = 'cnab240', $tipo = 'pagamentos')
 	{
 		$this->arquivo = __DIR__.'/../../../vendor/gbgelado/cnab-layouts/config/'.$banco.'/'.$formato.'/'.$tipo.'.yml';
-		if (!file_exists($this->arquivo)) throw new LayoutException('Arquivo não encontrado');
+		if (!file_exists($this->arquivo)) return false;
 		$this->config = Yaml::parse(file_get_contents($this->arquivo));
 	}
 
