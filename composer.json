@@ -3,7 +3,7 @@
 	"description": "Isso é um fork de glauberportella/cnab-layouts-parser",
 	"type": "project",
 	"license": "MIT",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"minimum-stability": "stable",
 	"authors": [
 		{
@@ -11,8 +11,7 @@
 			"email": "gelado@outlook.com"
 		}
 	],
-	"require": {
-	},
+	"require": {},
 	"autoload": {
 		"psr-4": {
 			"": "src/"
