@@ -22,6 +22,7 @@
 namespace CnabParser\Parser;
 
 use CnabParser\Exception\LayoutException;
+use CnabLayouts\SelectFile;
 
 use Symfony\Component\Yaml\Yaml;
 
@@ -31,11 +32,9 @@ class Layout
 
 	protected $arquivo;
 
-	public function __construct($banco = 'itau', $formato = 'cnab240', $tipo = 'pagamentos')
+	public function __construct()
 	{
-		$this->arquivo = __DIR__.'/../../../vendor/gbgelado/cnab-layouts/config/'.$banco.'/'.$formato.'/'.$tipo.'.yml';
-		if (!file_exists($this->arquivo)) return false;
-		$this->config = Yaml::parse(file_get_contents($this->arquivo));
+		$this->config = SelectFile::getFileLayout($banco = 'itau', $formato = 'cnab240', $tipo = 'pagamentos');
 	}
 
 	public function getRemessaLayout()
