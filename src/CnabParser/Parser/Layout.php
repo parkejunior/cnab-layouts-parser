@@ -24,8 +24,6 @@ namespace CnabParser\Parser;
 use CnabParser\Exception\LayoutException;
 use CnabLayouts\SelectFile;
 
-use Symfony\Component\Yaml\Yaml;
-
 class Layout
 {
 	protected $config;
