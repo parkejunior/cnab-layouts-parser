@@ -1,14 +1,14 @@
 {
-	"name": "gbgelado/cnab-layouts-parser",
-	"description": "Isso é um fork de glauberportella/cnab-layouts-parser",
+	"name": "bee-delivery/cnab-layouts-parser",
+	"description": "Isso é um fork de gbgelado/cnab-layouts-parser",
 	"type": "project",
 	"license": "MIT",
 	"version": "0.1.8",
 	"minimum-stability": "stable",
 	"authors": [
 		{
-			"name": "Gabriel Gelado",
-			"email": "gelado@outlook.com"
+			"name": "Danilo Carlos",
+			"email": "danilogocarlos@gmail.com"
 		}
 	],
 	"require": {},
