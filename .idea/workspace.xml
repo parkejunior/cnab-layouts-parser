@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d8ea145-7781-4046-8cac-902abf104a9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/config/febraban/cnab240/pagamentos.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/febraban/cnab240/pagamentos.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CnabParser/Output/RemessaFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CnabParser/Output/RemessaFile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CnabParser/Parser/Layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CnabParser/Parser/Layout.php" afterDir="false" />
-    </list>
+    <list default="true" id="6d8ea145-7781-4046-8cac-902abf104a9c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
