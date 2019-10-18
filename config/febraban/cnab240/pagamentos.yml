@@ -6,7 +6,7 @@
 #
 # ALINHAMENTO DE CAMPOS
 # - Campos Numéricos (9) = Sempre à direita e preenchidos com zeros à esquerda.
-# - Campos Alfanuméricos (X) = Sempre à esquerda e preenchidos com brancos à direita. 
+# - Campos Alfanuméricos (X) = Sempre à esquerda e preenchidos com brancos à direita.
 #
 # A versão é identificada através de um código com a seguinte composição:
 # - VV.R onde:
@@ -21,7 +21,7 @@
 # Será alterado quando ocorrer inclusão/exclusão de campos.
 #
 # VERSÃO DE LAYOUT DE ARQUIVO
-# Será alterado quando ocorrer inclusão/exclusão de serviços / produtos (lotes de serviços / produtos). 
+# Será alterado quando ocorrer inclusão/exclusão de serviços / produtos (lotes de serviços / produtos).
 
 servico: 'pagamentos'
 
@@ -894,64 +894,64 @@ remessa:
         picture: '9(8)'
 
     # opcional remessa/retorno
-    segmento_c:
-      codigo_banco:
-        pos: [1,3]
-        picture: '9(3)'
-      lote_servico:
-        pos: [4,7]
-        picture: '9(4)'
-      tipo_registro:
-        pos: [8,8]
-        picture: '9(1)'
-        default: '3'
-      numero_sequencial_registro_lote:
-        pos: [9,13]
-        picture: '9(5)'
-      codigo_segmento_registro_detalhe:
-        pos: [14,14]
-        picture: 'X(1)'
-        default: 'C'
-      exclusivo_febraban_01:
-        pos: [15,17]
-        picture: 'X(3)'
-        default: ''
-      valor_ir:
-        pos: [18,32]
-        picture: '9(13)V9(2)'
-      valor_iss:
-        pos: [33,47]
-        picture: '9(13)V9(2)'
-      valor_iof:
-        pos: [48,62]
-        picture: '9(13)V9(2)'
-      valor_outras_deducoes:
-        pos: [63,77]
-        picture: '9(13)V9(2)'
-      valor_outros_acrescimos:
-        pos: [78,92]
-        picture: '9(13)V9(2)'
-      agencia_favorecido:
-        pos: [93,97]
-        picture: '9(5)'
-      digito_verificador_agencia:
-        pos: [98,98]
-        picture: 'X(1)'
-      numero_conta_corrente:
-        pos: [99,110]
-        picture: '9(12)'
-      digito_verificador_conta:
-        pos: [111,111]
-        picture: 'X(1)'
-      digito_verificador_agencia_conta:
-        pos: [112,112]
-        picture: 'X(1)'
-      valor_inss:
-        pos: [113,127]
-        picture: '9(13)V9(2)'
-      exclusivo_febraban_02:
-        pos: [128,240]
-        picture: 'X(113)'
+#    segmento_c:
+#      codigo_banco:
+#        pos: [1,3]
+#        picture: '9(3)'
+#      lote_servico:
+#        pos: [4,7]
+#        picture: '9(4)'
+#      tipo_registro:
+#        pos: [8,8]
+#        picture: '9(1)'
+#        default: '3'
+#      numero_sequencial_registro_lote:
+#        pos: [9,13]
+#        picture: '9(5)'
+#      codigo_segmento_registro_detalhe:
+#        pos: [14,14]
+#        picture: 'X(1)'
+#        default: 'C'
+#      exclusivo_febraban_01:
+#        pos: [15,17]
+#        picture: 'X(3)'
+#        default: ''
+#      valor_ir:
+#        pos: [18,32]
+#        picture: '9(13)V9(2)'
+#      valor_iss:
+#        pos: [33,47]
+#        picture: '9(13)V9(2)'
+#      valor_iof:
+#        pos: [48,62]
+#        picture: '9(13)V9(2)'
+#      valor_outras_deducoes:
+#        pos: [63,77]
+#        picture: '9(13)V9(2)'
+#      valor_outros_acrescimos:
+#        pos: [78,92]
+#        picture: '9(13)V9(2)'
+#      agencia_favorecido:
+#        pos: [93,97]
+#        picture: '9(5)'
+#      digito_verificador_agencia:
+#        pos: [98,98]
+#        picture: 'X(1)'
+#      numero_conta_corrente:
+#        pos: [99,110]
+#        picture: '9(12)'
+#      digito_verificador_conta:
+#        pos: [111,111]
+#        picture: 'X(1)'
+#      digito_verificador_agencia_conta:
+#        pos: [112,112]
+#        picture: 'X(1)'
+#      valor_inss:
+#        pos: [113,127]
+#        picture: '9(13)V9(2)'
+#      exclusivo_febraban_02:
+#        pos: [128,240]
+#        picture: 'X(113)'
 
 retorno:
 
@@ -1370,7 +1370,7 @@ retorno:
       # '5' = Emite Aviso Somente para o Favorecido
       # '6' = Emite Aviso para o Remetente e Favorecido
       # '7' = Emite Aviso para o Favorecido e 2 Vias para o Remetente
-      # 
+      #
       aviso_favorecido:
         pos: [226,226]
         picture: '9(1)'
@@ -1396,61 +1396,61 @@ retorno:
         picture: '9(8)'
 
     # opcional remessa/retorno
-    segmento_c:
-      codigo_banco:
-        pos: [1,3]
-        picture: '9(3)'
-      lote_servico:
-        pos: [4,7]
-        picture: '9(4)'
-      tipo_registro:
-        pos: [8,8]
-        picture: '9(1)'
-        default: '3'
-      numero_sequencial_registro_lote:
-        pos: [9,13]
-        picture: '9(5)'
-      codigo_segmento_registro_detalhe:
-        pos: [14,14]
-        picture: 'X(1)'
-        default: 'C'
-      exclusivo_febraban_01:
-        pos: [15,17]
-        picture: 'X(3)'
-        default: ''
-      valor_ir:
-        pos: [18,32]
-        picture: '9(13)V9(2)'
-      valor_iss:
-        pos: [33,47]
-        picture: '9(13)V9(2)'
-      valor_iof:
-        pos: [48,62]
-        picture: '9(13)V9(2)'
-      valor_outras_deducoes:
-        pos: [63,77]
-        picture: '9(13)V9(2)'
-      valor_outros_acrescimos:
-        pos: [78,92]
-        picture: '9(13)V9(2)'
-      agencia_favorecido:
-        pos: [93,97]
-        picture: '9(5)'
-      digito_verificador_agencia:
-        pos: [98,98]
-        picture: 'X(1)'
-      numero_conta_corrente:
-        pos: [99,110]
-        picture: '9(12)'
-      digito_verificador_conta:
-        pos: [111,111]
-        picture: 'X(1)'
-      digito_verificador_agencia_conta:
-        pos: [112,112]
-        picture: 'X(1)'
-      valor_inss:
-        pos: [113,127]
-        picture: '9(13)V9(2)'
-      exclusivo_febraban_02:
-        pos: [128,240]
-        picture: 'X(113)'
+#    segmento_c:
+#      codigo_banco:
+#        pos: [1,3]
+#        picture: '9(3)'
+#      lote_servico:
+#        pos: [4,7]
+#        picture: '9(4)'
+#      tipo_registro:
+#        pos: [8,8]
+#        picture: '9(1)'
+#        default: '3'
+#      numero_sequencial_registro_lote:
+#        pos: [9,13]
+#        picture: '9(5)'
+#      codigo_segmento_registro_detalhe:
+#        pos: [14,14]
+#        picture: 'X(1)'
+#        default: 'C'
+#      exclusivo_febraban_01:
+#        pos: [15,17]
+#        picture: 'X(3)'
+#        default: ''
+#      valor_ir:
+#        pos: [18,32]
+#        picture: '9(13)V9(2)'
+#      valor_iss:
+#        pos: [33,47]
+#        picture: '9(13)V9(2)'
+#      valor_iof:
+#        pos: [48,62]
+#        picture: '9(13)V9(2)'
+#      valor_outras_deducoes:
+#        pos: [63,77]
+#        picture: '9(13)V9(2)'
+#      valor_outros_acrescimos:
+#        pos: [78,92]
+#        picture: '9(13)V9(2)'
+#      agencia_favorecido:
+#        pos: [93,97]
+#        picture: '9(5)'
+#      digito_verificador_agencia:
+#        pos: [98,98]
+#        picture: 'X(1)'
+#      numero_conta_corrente:
+#        pos: [99,110]
+#        picture: '9(12)'
+#      digito_verificador_conta:
+#        pos: [111,111]
+#        picture: 'X(1)'
+#      digito_verificador_agencia_conta:
+#        pos: [112,112]
+#        picture: 'X(1)'
+#      valor_inss:
+#        pos: [113,127]
+#        picture: '9(13)V9(2)'
+#      exclusivo_febraban_02:
+#        pos: [128,240]
+#        picture: 'X(113)'
