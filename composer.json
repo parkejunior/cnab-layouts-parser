@@ -1,5 +1,5 @@
 {
-	"name": "bee-delivery/cnab-layouts-parser",
+	"name": "bee-delivery/layouts-cnab-parser",
 	"description": "Isso é um fork de gbgelado/cnab-layouts-parser",
 	"type": "project",
 	"license": "MIT",

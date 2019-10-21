@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6d8ea145-7781-4046-8cac-902abf104a9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +25,7 @@
   <component name="ProjectId" id="1SNQqJyhXGJorIYtbsTBhsSOSsU" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../advogados-associados" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -51,7 +53,8 @@
       <updated>1571401762904</updated>
       <workItem from="1571401764018" duration="810000" />
       <workItem from="1571421812757" duration="311000" />
-      <workItem from="1571424513475" duration="39000" />
+      <workItem from="1571424513475" duration="1020000" />
+      <workItem from="1571664336196" duration="737000" />
     </task>
     <servers />
   </component>
