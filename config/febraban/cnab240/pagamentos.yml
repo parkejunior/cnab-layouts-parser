@@ -162,7 +162,7 @@ remessa:
     versao_layout_arquivo:
       pos: [164,166]
       picture: '9(3)'
-      default: '091'
+      default: '089'
     #
     # Campo: densidade_gravacao_arquivo
     # Densidade de gravação (BPI), do arquivo encaminhado.
@@ -1020,7 +1020,7 @@ retorno:
     versao_layout_arquivo:
       pos: [164,166]
       picture: '9(3)'
-      default: '091'
+      default: '089'
     densidade_gravacao_arquivo:
       pos: [167,171]
       picture: '9(5)'
@@ -1394,6 +1394,39 @@ retorno:
       codigo_ispb:
         pos: [233,240]
         picture: '9(8)'
+
+    # opcional remessa/retorno
+    segmento_z:
+      codigo_banco:
+        pos: [1,3]
+        picture: '9(3)'
+      lote_servico:
+        pos: [4,7]
+        picture: '9(4)'
+      tipo_registro:
+        pos: [8,8]
+        picture: '9(1)'
+        default: '3'
+      numero_sequencial_registro_lote:
+        pos: [9,13]
+        picture: '9(5)'
+      codigo_segmento_registro_detalhe:
+        pos: [14,14]
+        picture: 'X(1)'
+        default: 'C'
+      autenticacao:
+        pos: [15,78]
+        picture: 'X(64)'
+      controle_bancario:
+        pos: [79,103]
+        picture: 'X(25)'
+      exclusivo_febraban_01:
+        pos: [104,230]
+        picture: 'X(127)'
+      ocorrencias:
+        pos: [231,240]
+        picture: 'X(10)'
+
 
     # opcional remessa/retorno
 #    segmento_c:
