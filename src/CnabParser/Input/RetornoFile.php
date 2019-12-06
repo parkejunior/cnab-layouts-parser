@@ -137,7 +137,9 @@ class RetornoFile extends IntercambioBancarioRetornoFileAbstract
 					// se codigoSegmento é ultimo OU proximo codigoSegmento é o primeiro
 					// entao fecha o titulo e adiciona em $detalhes
 					if (strtolower($codigoSegmento) === strtolower($ultimoCodigoSegmentoLayout) ||
-						strtolower($proximoCodigoSegmento) === strtolower($primeiroCodigoSegmentoLayout)) {
+						strtolower($proximoCodigoSegmento) === strtolower($primeiroCodigoSegmentoLayout) ||
+                        			strtolower($proximoCodigoSegmento) === '') 
+					{
 						$lote['titulos'][] = $segmentos;
 						// novo titulo, novos segmentos
 						$segmentos = array();
