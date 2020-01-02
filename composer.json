@@ -1,6 +1,6 @@
 {
 	"name": "bee-delivery/layouts-cnab-parser",
-	"description": "Isso é um fork de gbgelado/cnab-layouts-parser",
+	"description": "Isso é um fork de gbgelado/cnab-layouts-parser.",
 	"type": "project",
 	"license": "MIT",
 	"version": "0.1.8",

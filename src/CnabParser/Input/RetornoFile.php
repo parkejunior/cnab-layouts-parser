@@ -138,18 +138,19 @@ class RetornoFile extends IntercambioBancarioRetornoFileAbstract
 					// entao fecha o titulo e adiciona em $detalhes
 					if (strtolower($codigoSegmento) === strtolower($ultimoCodigoSegmentoLayout) ||
 						strtolower($proximoCodigoSegmento) === strtolower($primeiroCodigoSegmentoLayout) ||
-                        			strtolower($proximoCodigoSegmento) === '') 
+                        strtolower($proximoCodigoSegmento) === '')
 					{
 						$lote['titulos'][] = $segmentos;
 						// novo titulo, novos segmentos
 						$segmentos = array();
 					}
 					break;
-				case IntercambioBancarioRetornoFileAbstract::REGISTRO_TRAILER_ARQUIVO:
-					$this->model->lotes[] = $lote;
-					$titulos = array();
-					$segmentos = array();
-					break;
+                case IntercambioBancarioRetornoFileAbstract::REGISTRO_TRAILER_LOTE:
+                    $this->model->lotes[] = $lote;
+                    $lote = null;
+                    $titulos = array();
+                    $segmentos = array();
+                    break;
 			}
 		}
 	}
