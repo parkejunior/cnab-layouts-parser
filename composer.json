@@ -1,14 +1,21 @@
 {
-	"name": "bee-delivery/layouts-cnab-parser",
-	"description": "Isso é um fork de gbgelado/cnab-layouts-parser.",
+	"name": "parkejunior/cnab-layouts-parser",
+	"description": "Parser de arquivos CNAB. Isso é um fork de bee-delivery/layouts-cnab-parser.",
 	"type": "project",
 	"license": "MIT",
-	"version": "0.1.8",
+	"version": "0.1.9",
 	"minimum-stability": "stable",
 	"authors": [
 		{
-			"name": "Danilo Carlos",
-			"email": "danilogocarlos@gmail.com"
+			"name": "Glauber Portella",
+			"email": "glauberportella@gmail.com",
+			"role": "Developer"
+		},
+		{
+			"name": "Patrick Luan",
+			"email": "patrick_luan1@hotmail.com",
+			"homepage": "https://parkejunior.xyz",
+			"role": "Developer"
 		}
 	],
 	"require": {},
