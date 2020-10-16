@@ -23,7 +23,6 @@ namespace CnabParser\Output;
 
 use CnabParser\IntercambioBancarioRemessaFileAbstract;
 use CnabParser\Model\Lote;
-use Illuminate\Support\Facades\Storage;
 
 class RemessaFile extends IntercambioBancarioRemessaFileAbstract
 {
@@ -49,7 +48,7 @@ class RemessaFile extends IntercambioBancarioRemessaFileAbstract
         $data = implode(self::CNAB_EOL, $data);
         $data .= self::CNAB_EOL;
 
-        Storage::disk('s3-media')->put('cnab/remessas/' . $path, $data);
+        file_put_contents($path, $data);
     }
 
     protected function encodeHeaderArquivo()
